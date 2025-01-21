@@ -175,6 +175,7 @@ nav:hover #hidden {
   border: #fff5cc 1px solid;
   position: relative;
   transition: 0.3s ease, z-index 0s;
+  transform-origin: center;
 }
 
 #plutopics img:hover {
