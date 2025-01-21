@@ -118,10 +118,38 @@ nav a:visited {
 #galleryflex {
   display: flex;
   gap: 2em;
+  align-items: stretch;
 }
 
 #galleryflex div {
   width: 49%;
+  flex: 1;
+}
+
+#plutopics {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  position: relative;
+  font-size: 12px;
+  flex-wrap: wrap;
+}
+
+.plutopics figure {
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+  flex: 0 1 auto;
+  background-color: #111933;
+}
+
+#plutopics img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border: #fff5cc 1px solid;
 }
 
 /* Moons of Pluto: History and Fun Facts styling */
