@@ -21,6 +21,7 @@ body {
   align-items: center;
   font-size: 20px;
   margin-top: 20px;
+  font-family: "Orbitron", serif;
 }
 
 #header img {
@@ -34,6 +35,7 @@ nav ul {
   justify-content: space-around;
   list-style: none;
   padding: 5px 0;
+  font-family: "Orbitron", serif;
 }
 
 nav li {
@@ -53,21 +55,32 @@ nav a:visited {
   background-color: #1d2951;
   margin-bottom: 10px;
   padding: 20px;
+  font-family: "Montserrat", serif;
 }
 
 #intro img {
-  width: 25%;
+  width: 30%;
   border: #fff5cc 1px solid;
   padding: 5px;
+  object-fit: cover;
+}
+
+#intro p {
+  width: 70%;
+  text-align: justify;
+  background-color: #111933;
+  padding: 15px;
 }
 
 #intro {
   display: flex;
   gap: 1em;
+  justify-content: space-between;
 }
 
 #planet h2 {
   font-size: 1.5em;
+  text-align: center;
 }
 
 #planet h3 {
@@ -77,14 +90,29 @@ nav a:visited {
 #planet h2,
 #planet h3 {
   background-color: #0f1529;
-  padding-left: 10px;
+  padding: 10px;
   margin-bottom: 15px;
+  font-family: "Orbitron", serif;
+  text-transform: uppercase;
 }
 
-#planet p {
-  padding-left: 10px;
+#planet p,
+#planet ul {
   margin-bottom: 15px;
   text-align: justify;
+  background-color: #111933;
+  padding: 15px;
+}
+
+#planet article,
+#planet aside {
+  background-color: #37405c;
+  padding: 15px;
+}
+
+#planet ul {
+  padding-left: 30px;
+  list-style: square;
 }
 
 #galleryflex {
