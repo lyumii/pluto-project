@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  color: #fff5cc;
+  width: 800px;
+  margin: auto;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#header img {
+  width: 35%;
+}
+
+nav ul {
+  margin-bottom: 20px;
+  background-color: #1d2951;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 5px 0;
+}
+
+nav li {
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+
+nav a,
+nav a:visited {
+  color: #fff5cc;
+  text-decoration: none;
+}
+
+#intro,
+#planet {
+  line-height: 1.8;
+  background-color: #1d2951;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+#intro img {
+  width: 25%;
+  border: #fff5cc 1px solid;
+  padding: 5px;
+}
+
+#intro {
+  display: flex;
+  gap: 1em;
+}
+
+#planet h2 {
+  font-size: 1.5em;
+}
+
+#planet h3 {
+  font-size: 1.3em;
+}
+
+#planet h2,
+#planet h3 {
+  background-color: #0f1529;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+#planet p {
+  padding-left: 10px;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+#galleryflex {
+  display: flex;
+  gap: 2em;
+}
+
+#galleryflex div {
+  width: 49%;
+}
